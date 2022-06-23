@@ -12,7 +12,7 @@ builder.Configuration.AddAzureAppConfiguration(                                 
                    featureFlagOptions =>                                                         // <==
                         featureFlagOptions.CacheExpirationInterval = TimeSpan.FromSeconds(10))); // <==
 
-builder.Services.AddAzureAppConfiguration();
+builder.Services.AddAzureAppConfiguration();                                    // <==
 
 builder.Services.AddControllersWithViews();
 

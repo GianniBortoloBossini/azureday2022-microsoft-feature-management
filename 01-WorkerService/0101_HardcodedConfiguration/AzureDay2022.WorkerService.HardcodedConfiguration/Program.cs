@@ -1,7 +1,7 @@
 // *** HARDCODED FEATURE FLAGS CONFIGURATION ***
 var flags = new Dictionary<string, string>
     {
-        { $"FeatureManagement:LogTime", "True"}
+        { $"FeatureManagement:LogTime", "False"}
     };
 // *********************************************
 
